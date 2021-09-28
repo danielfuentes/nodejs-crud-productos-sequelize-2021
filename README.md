@@ -1,4 +1,4 @@
-Aplicación desarrollada con NodeJs y el framework Exoress.
+Aplicación desarrollada con NodeJs y el framework Express.
 
 CRUD de productos basado en el ORM sequelize y el login y el registro usando archivo en formato JSON.
 
