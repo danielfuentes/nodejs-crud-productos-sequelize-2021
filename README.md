@@ -13,7 +13,7 @@ Pasos o grupos de pasos ejecutados para el desarrollo del proyecto.
     Creamos la carpeta src donde irá nuestro código.
     Creamos el archivo index.js dentro de src, dentro requerimos Express e inicializamos un servidor con el método listen().
 
-Corremos la aplicación y verificamos que el servidor corra correctamente.
+Corremos la aplicación y verificamos que el servidor corra correctamente. (npm test)
 [Opcional] Creamos los scripts para correr la aplicación
 
     Instalamos nodemon como dependencia de desarrollo npm i nodemon --save-dev
@@ -31,5 +31,8 @@ Configuración de Express y vistas iniciales
     Configuramos Express para que utilice EJS como motor de plantillas y para que tome nuestra carpeta src/views como fuente de plantillas.
     Creamos una ruta que carge nuestra página principal con el método render().
 
+Tener presente que en la carpeta db, se encuentra el script para que puedan en sus equipos crear la base de datos watches y luego importar las estructuras y los datos de las tablas a utilizar: products y category.
+
+Tenga presente que para ejecutar la aplicación, debe ejecutar el comando (npm test) y finalmente en el navegador ejecutar el comando: ( localhost:3001 ).
 Verificamos que el servidor levante las vistas de EJS correctamente.
 
